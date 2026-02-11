@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roll'N Trailer Rentals N More LLC</title>
+  <style>
+    body{margin:0;font-family:Arial;background:#0b0b0b;color:#fff}
+    header{text-align:center;padding:40px 20px;background:#111}
+    .accent{color:#22c55e}
+    section{padding:40px 20px;max-width:900px;margin:auto}
+    .card{background:#151515;border-radius:12px;padding:20px;margin-bottom:20px}
+    button{background:#22c55e;border:none;padding:14px;width:100%;color:#000;font-weight:700;border-radius:8px;font-size:16px;cursor:pointer}
+    input,select,textarea{width:100%;padding:12px;margin:8px 0;border-radius:8px;border:1px solid #333;background:#0f0f0f;color:#fff;box-sizing:border-box}
+    footer{text-align:center;padding:20px;background:#111;color:#777}
+    .small{font-size:12px;color:#777;line-height:1.4}
+  .card { border: 1px solid #222; box-shadow: 0 0 0 1px rgba(34,197,94,.08); }
+header { background: linear-gradient(180deg, #0b0b0b, #111); }
+h1, h2 { letter-spacing: .5px; text-transform: uppercase; }
+</body>
+</html>
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Roll'N Trailer Rentals N More LLC</h1>
+  <p class="accent">24/7 Trailer Rentals • Serving the CSRA Area</p>
+  <a href="#booking" style="
+  display:inline-block;
+  margin-top:18px;
+  padding:14px 22px;
+  background:#22c55e;
+  color:#000;
+  font-weight:800;
+  text-decoration:none;
+  border-radius:10px;">
+  BOOK NOW
+</a>
+  <a href="tel:7143838539" style="
+display:inline-block;
+margin-top:10px;
+padding:12px 18px;
+background:#222;
+color:#22c55e;
+text-decoration:none;
+border-radius:8px;">
+Call or Text Now
+</a>
+</header>
+
+<h2 style="text-align:center;margin:0 0 22px 0;">
+  Heavy-Duty Trailer Rentals in the CSRA
+</h2>
+<p style="text-align:center;color:#9ca3af;margin-top:-8px;">
+  Fast approvals • 24/7 rentals • Deposit required to reserve
+</p>
+  
+<section>
+  <div class="card">
+    <h2>Available Trailers</h2>
+    <h3>22’ Tilt Deck Equipment Trailer — 14K</h3>
+    <p>$130/day • $650/week</p>
+    
+
+<div style="display:flex;gap:12px;overflow-x:auto;padding-bottom:10px;scroll-snap-type:x mandatory;">
+  <img src="tilt1.jpeg" style="height:220px;border-radius:12px;scroll-snap-align:start;" />
+  <img src="tilt2.jpeg" style="height:220px;border-radius:12px;scroll-snap-align:start;" />
+  <img src="tilt3.jpeg" style="height:220px;border-radius:12px;scroll-snap-align:start;" />
+  <img src="tilt4.jpeg" style="height:220px;border-radius:12px;scroll-snap-align:start;" />
+</div>    
+
+<hr style="border:1px solid #222;margin:30px 0;">
+
+<h3>20’ Steel Deck Car Hauler — 7K</h3>
+<p>$120/day • $600/week</p>
+    
+<div style="display:flex;gap:12px;overflow-x:auto;padding-bottom:10px;scroll-snap-type:x mandatory;">
+  <img src="car1.jpeg" style="height:220px;border-radius:12px;scroll-snap-align:start;" />
+  <img src="car2.jpeg" style="height:220px;border-radius:12px;scroll-snap-align:start;" />
+  <img src="car3.jpeg" style="height:220px;border-radius:12px;scroll-snap-align:start;" />
+  <img src="car4.jpeg" style="height:220px;border-radius:12px;scroll-snap-align:start;" />
+</div> 
+    <p><strong>22’ Tilt Deck Equipment Trailer — 14K</strong><br>$130/day • $650/week</p>
+    <p><strong>20’ Steel Deck Car Hauler — 7K</strong><br>$120/day • $600/week</p>
+    <p style="color:#22c55e;font-weight:bold;">
+Limited availability — reserve early to guarantee your dates.
+</p>
+  </div>
+  <div class="card">
+<h2>Why Rent From Us?</h2>
+
+<ul style="line-height:1.8;">
+<li>✔ Heavy-duty, well-maintained trailers</li>
+<li>✔ Fast approval and easy pickup</li>
+<li>✔ 24/7 rental availability</li>
+<li>✔ Serving the entire CSRA</li>
+<li>✔ Secure online deposits</li>
+</ul>
+
+</div>
+  <div class="card" id="booking">
+    <h2>Booking Request</h2>
+
+    <form action="deposit.html" method="GET">
+      <input name="name" placeholder="Full Name" required />
+      <input name="phone" placeholder="Phone Number" required />
+      <input name="email" type="email" placeholder="Email (optional)" />
+
+      <select name="trailer" required>
+        <option value="tilt22">22’ Tilt Deck Equipment Trailer — 14K</option>
+        <option value="car20">20’ Steel Deck Car Hauler — 7K</option>
+      </select>
+
+      <select name="term" required>
+        <option value="daily">Daily</option>
+        <option value="weekly">Weekly</option>
+      </select>
+
+      <textarea name="notes" placeholder="Details or questions"></textarea>
+
+      <button type="submit">Continue to Deposit</button>
+    </form>
+
+    <p class="small">
+      Deposits are <b>non-refundable</b>. Requests are <b>pending approval</b>.
+      Balance due at pickup. Call/text <b>714-383-8539</b>.
+    </p>
+  </div>
+</section>
+
+  <div class="card">
+  <h2>Service Area</h2>
+  <p>Serving the CSRA area — Augusta, North Augusta, Aiken, Grovetown, Evans and surrounding areas.</p>
+
+  <div style="border-radius:12px;overflow:hidden;border:1px solid #222;">
+    <iframe
+      src="https://www.google.com/maps?q=Augusta,+GA&output=embed"
+      width="100%"
+      height="300"
+      style="border:0;"
+      loading="lazy">
+    </iframe>
+  </div>
+</div>
+<footer>
+  Call/Text: 714-383-8539 • RollnTrailerRentalsNMoreLLC@gmail.com • Serving the CSRA • 24/7 Rentals
+</footer>
+ 
